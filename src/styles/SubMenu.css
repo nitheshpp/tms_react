@@ -1,0 +1,36 @@
+.subMenuLink {
+    display: flex;
+    color: rgb(194, 182, 19);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    
+
+}
+.subMenuLink:hover{
+    background-color: #252831;
+    border-left: 4px solid #632ce4;
+    cursor: pointer;
+}
+.subMenuLable{
+    margin-left: 16px;
+    color: rgb(194, 182, 19);
+}
+.dropDownLink{
+    background-color: #414741;
+    height:60px;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+}
+.dropDownLink:hover{
+    background: #632ce4;
+    cursor: pointer;
+}
